@@ -538,3 +538,102 @@ p{font-size: 15px; line-height: 22px;}
 .banner_caption{margin-top: 25px;}
 }
 
+
+
+/* THIS IS THE NEW WORK FROM UPWORK */
+.digital_therapy{width: 100%; background: #fff;  text-align: left; background-color: #eeeeee;}
+.full {width: 100%; height: 100%;}
+.partners_sec{width: 100%; background: #fff;  text-align: center;margin-bottom: 35px; margin-top: 55px;}
+.partners_sec .row{margin: 0 auto; max-width: 1500px; text-align: center;}
+
+.grid{
+  margin: 0 auto; 
+  max-width: 1000px; 
+  display: grid;     
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: -35px;
+}
+.grid .item {
+  display: flex;
+  align-items: center;
+}
+.grid .item img{
+ width: 70%;
+ align-self: center;
+}
+
+.yt {
+  position: relative;
+  display: block;
+  width: 90%; /* width of iframe wrapper */
+  height: 0;
+  margin: auto;
+  padding: 0% 0% 56.25%; /* 16:9 ratio */
+  overflow: hidden;
+}
+.yt iframe {
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 550px) {
+  .yt {
+    width: 100%; /* width of iframe wrapper */
+    padding: 0% 0% 56.25%; /* 16:9 ratio */
+  }
+}
+
+
+.highlighted {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.highlighted:hover {
+  color: #de2424;
+}
+
+.container-nav {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container-nav {
+    max-width: 1280px;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .container-nav {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-nav {
+    max-width: 858px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-nav {
+    max-width: 1060px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-nav {
+    max-width: 1280px;
+  }
+}
